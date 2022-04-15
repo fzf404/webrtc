@@ -1,0 +1,28 @@
+{
+  "name": "webrtc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10",
+    "clipboard": "^2.0.10",
+    "express": "^4.17.3",
+    "postcss": "^8",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "tailwindcss": "^3",
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "naive-ui": "^2.26.1",
+    "pug": "^3.0.2",
+    "vite": "^2.8.0",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  }
+}
