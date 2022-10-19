@@ -2,7 +2,7 @@
 
 > 一个实时 WebRTC 音视频通话的例子
 
-![webrtc](https://cdn.jsdelivr.net/gh/fzf404/image/webrtc/show.webp)
+![webrtc](https://img.fzf404.art/webrtc/show.webp)
 
 ## 使用
 
