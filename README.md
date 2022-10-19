@@ -1,4 +1,4 @@
-# WebRTC 实时音视频通话
+# WebRTC
 
 > 一个实时 WebRTC 音视频通话的例子
 
