@@ -7,7 +7,7 @@
 ## 使用
 
 ```bash
-# 安装依赖
+# 安装
 pnpm install
 
 # 后端

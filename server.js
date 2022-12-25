@@ -20,7 +20,6 @@ const log = (msg) => {
 }
 
 io.on('connection', (sock) => {
-
   // 保存入用户
   log(`${sock.id} - 连接成功`)
   users.push(sock.id)
@@ -37,7 +36,7 @@ io.on('connection', (sock) => {
       io.to(roomId).emit('joined', { room: rooms[roomId] })
       log(`${sock.id} - ${userName} 加入房间 ${roomId}`)
     } else {
-      sock.emit('error', "已经加入过房间 或 房间已满")
+      sock.emit('error', '已经加入过房间 或 房间已满')
     }
   })
 
@@ -50,7 +49,6 @@ io.on('connection', (sock) => {
     // 广播房间信息
     io.to(roomId).emit('exited', { room: rooms[roomId] })
     log(`${sock.id} - 退出房间 ${roomId}`)
-
   })
 
   // 断开连接
